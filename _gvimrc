@@ -1,0 +1,40 @@
+syntax on
+set number
+set guioptions-=r
+set guioptions-=R
+set guioptions-=l
+set guioptions-=L
+set guioptions-=b
+set guioptions-=T
+set guioptions-=m
+set guifont=MS_Gothic:h9	
+set statusline=[%n]\ %F%m%r%h%w\ (%l,%v)\ [%P/%L]\ [%{&fileencoding}]
+set enc=utf-8 " vim encoding 
+set fenc=utf-8 " file encoding 
+set nobomb "utf-8 no bomb
+set ff=unix
+set laststatus=2
+set autoread
+set nobackup
+set showcmd
+set smartindent
+set autoindent
+set incsearch
+set autochdir
+set shiftwidth=2
+set tabstop=2
+set hlsearch
+set noswapfile
+set history=10000
+set ruler
+set title
+set cursorcolumn
+set cursorline
+set whichwrap=b,s,[,],<,>
+set backspace=indent,eol,start
+set clipboard+=unnamed
+set wildmenu
+nnoremap gr gT
+nnoremap tt :<C-u>tabnew<cr>
+nnoremap <Esc><Esc> :nohlsearch<CR>
+
